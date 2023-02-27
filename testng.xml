@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/CR876AU/REST_API_Validations/REST_APIs">
+        <classes>
+            <class name="Get_API.Usecase1">
+                <methods>
+                    <include name="validate_username_list_TC01"/>
+                    <include name="validate_emailIds_TC02"/>
+                    <include name="validate_usernameById_TC03"/>
+                    <include name="validate_records_TC04"/>
+                    <include name="validate_lastSixRecords_TC05"/>
+                    <include name="Fetch_Userdetails_ById_TC06"/>
+                    <include name="Update_Userdetail_By_Id_PUT_TC07"/>
+                    <include name="Update_Userdetail_By_Id_PATCH_TC08"/>
+                    <include name="Delete_User_By_Id_TC09"/>
+                    <include name="Fetch_Unknown_resource_TC010"/>
+                    <include name="Update_Unknown_resource_PUT_TC011"/>
+                    <include name="Update_Unknown_resource_PATCH_TC012"/>
+                    <include name="Delete_Unknown_resource_TC013"/>
+                    <include name="Create_New_Login_Session_TC014"/>
+                    <include name="Register_New_Login_Session_TC015"/>
+                    <include name="Logout_Session_TC016"/>
+                </methods>
+            </class>
+<!--            <class name="Get_API.Usecase2">-->
+<!--                <methods>-->
+<!--                    <include name="validate_Indian_State_University_Name_TC01"/>-->
+<!--                    <include name="validate_stateProvince_USA_TC02"/>-->
+<!--                    <include name="validate_RussianFederationUniversity_TC03"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

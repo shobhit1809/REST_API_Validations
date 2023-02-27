@@ -1,0 +1,8 @@
+Key	Value
+user_by_id	2
+userdetails_by_id	4
+Update_Userdetail_By_Id_PUT	9
+Update_Userdetail_By_Name_PUT	Alberta
+Delete_Userdetail_By_Id	10
+Update_Userdetail_By_Id_PATCH	9
+Update_Userdetail_By_Email_PATCH	alberta.funke@reqres.in
